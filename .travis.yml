@@ -3,8 +3,7 @@ node_js:
 - '0.8'
 env:
   global:
-  - secure: PWu4ckF0oL/rGIPzsfy/WpGSSDz0uqXHwEgoC19flAeP9o1IfFGB0Jq+iol2scL15MGwDOyAE/NVGdqcUT/+cXdUY5elVXe0IRJq80Ti1OH9QCjx87a1K2WDi2Ef/59SyP/n+px4nuown6iIch3EKwGGmMBFGrE9iYDedDm0/aY=
-  - secure: dRJ3rrJgprSCSX2CPML+2gbwfShjmPFE5uE89APLYicL5rorruhEYHFcgd9DELgeebFWcnWs5Mg+PIHl3UTz2EezEQrgLnX/yGdDneZTY74jUfCo2LQMM4PGIUH28U48rJYztyxC0MtHYXX+Frb8J1vG1yNJNb5wm/Mqlgxj8KE=
+    secure: YICB7UhBQogay8WJPv38I6Ga0riqKUcYzouaeNhKZNEnaj4WO+ISTmYfTEBhsh5tIjx8z86rCSk7geqNnh1OEtOT0AJNoVSbSVPpsREv+vDTcj1vpwjZWCyLwJvbFgHBvLnYQsRCAwfDnxtw9MIxIUDsyh/GWBzkiBUxERedWlc=
 install:
 - git clone https://github.com/victornswd/intern-examples
 - cd travis-ci-example
