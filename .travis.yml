@@ -1,14 +1,12 @@
 language: node_js
 node_js:
-  - "0.8"
+- '0.8'
 env:
   global:
-    # Sauce Labs are OK with this and it is currently necessary to expose this information for testing pull requests;
-    # please get your own free key if you want to test yourself
-    - SAUCE_USERNAME: intern-example-ci
-    - SAUCE_ACCESS_KEY: 89ac3089-17b3-4e9b-aaf3-c475b27fa441
+  - secure: PWu4ckF0oL/rGIPzsfy/WpGSSDz0uqXHwEgoC19flAeP9o1IfFGB0Jq+iol2scL15MGwDOyAE/NVGdqcUT/+cXdUY5elVXe0IRJq80Ti1OH9QCjx87a1K2WDi2Ef/59SyP/n+px4nuown6iIch3EKwGGmMBFGrE9iYDedDm0/aY=
+  - secure: dRJ3rrJgprSCSX2CPML+2gbwfShjmPFE5uE89APLYicL5rorruhEYHFcgd9DELgeebFWcnWs5Mg+PIHl3UTz2EezEQrgLnX/yGdDneZTY74jUfCo2LQMM4PGIUH28U48rJYztyxC0MtHYXX+Frb8J1vG1yNJNb5wm/Mqlgxj8KE=
 install:
-  - git clone https://github.com/vladikoff/intern-examples
-  - cd travis-ci-example
-  - npm install intern
+- git clone https://github.com/victornswd/intern-examples
+- cd travis-ci-example
+- npm install intern
 script: node node_modules/intern/runner.js config=tests/intern
